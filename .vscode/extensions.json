@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    // Python specific
+    "ms-python.python", // Python language support
+    "ms-python.debugpy", // Python debugging
+    "ms-python.pylint", // Linting (or use flake8/black extensions)
+    // Frontend specific
+    "dbaeumer.vscode-eslint", // JavaScript/TypeScript Linting (if you add ESLint later)
+    "esbenp.prettier-vscode", // Code formatter (if you add Prettier later)
+    "vite.vscode-vite", // Vite specific tooling
+    "bierner.markdown-preview-github-styles", // For README etc.
+    // General / Git
+    "eamodio.gitlens", // Git superpowers
+    "mhutchie.git-graph" // Git graph visualization
+  ]
+}
