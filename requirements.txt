@@ -11,6 +11,6 @@ drf-spectacular
 Djoser
 social-auth-app-Django
 gunicorn
-dj_database_url                                                                                              
-psycopg2-binary  , 
+dj_database_url
+psycopg2-binary
 whitenoise
