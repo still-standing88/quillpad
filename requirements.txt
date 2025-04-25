@@ -6,8 +6,11 @@ django-taggit>=5.0.1
 python-decouple>=3.8
 Pillow>=10.2.0
 django-markdownx
+django-filter
 drf-spectacular
 Djoser
 social-auth-app-Django
 gunicorn
 dj_database_url                                                                                              
+psycopg2-binary  , 
+whitenoise
