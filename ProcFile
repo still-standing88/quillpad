@@ -1,0 +1,2 @@
+web: gunicorn src.api.quillpad_backend.wsgi --log-file - --log-level info
+release: python src/api/manage.py migrate
