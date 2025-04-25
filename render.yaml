@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: quillpad-frontend
+    env: static
+    buildCommand: npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /api/** 
+        destination: https://quillpad-backend.onrender.com/api/**
+
+      - type: rewrite
+        source: /media/** 
+        destination: https://quillpad-backend.onrender.com/media/**
+
+      - type: rewrite
+        source: /*
+        destination: /index.html
