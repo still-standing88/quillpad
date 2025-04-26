@@ -1,0 +1,10 @@
+# .replit
+run = "bash -c 'npm install && pip install -r requirements.txt && python src/api/manage.py migrate && npm run start:dev:replit'"
+entrypoint = "src/js/main.js"
+channel = "stable-23_11"
+
+# Optional language server config
+# [languages.python]
+# pattern = "**/*.py"
+# [languages.python.languageServer]
+# start = "pylsp"
